@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zowrayz Asad - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <meta name="theme-color" content="#0b0d10" />
+    <meta name="description" content="The portfolio of Zowrayz Asad — full-stack developer, designer, and creative thinker." />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home" aria-label="Zowrayz Asad home"><span class="logo-mark">Z</span><span>Zowrayz<span class="logo-accent">.</span></span></a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme"><i class="fas fa-sun" aria-hidden="true"></i></button>
+                <a class="nav-cta" href="#contact">Let's talk <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            </div>
+            <button class="hamburger" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main id="main">
+    <section id="home" class="hero section-shell">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-content reveal">
+            <div class="eyebrow"><span class="status-dot"></span> Available for select projects</div>
+            <h1>Building digital<br />experiences with <span class="highlight">purpose.</span></h1>
+            <p class="hero-copy">Hey, I’m Zowrayz Asad — a full-stack developer and designer turning thoughtful ideas into clear, useful, and memorable digital products.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="cta-btn">Explore my work <i class="fas fa-arrow-down" aria-hidden="true"></i></a>
+                <a href="#contact" class="text-link">Let’s work together <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            </div>
+            <div class="hero-meta"><span>Based in <strong>Your City</strong></span><span class="meta-divider"></span><span>Working <strong>Worldwide</strong></span></div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Abstract gradient artwork">
+            <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+            <div class="visual-card"><div class="visual-card-top"><span class="window-dots"><i></i><i></i><i></i></span><span>creative.dev</span><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></div><div class="code-art"><span class="code-muted">01</span><span class="code-purple">const</span> ideas = <span class="code-green">"something real"</span>;<br /><span class="code-muted">02</span><span class="code-purple">function</span> <span class="code-blue">makeItMatter</span>() {<br /><span class="code-muted">03</span>&nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-green">goodDesign</span> + <span class="code-green">greatCode</span>;<br /><span class="code-muted">04</span>}</div><div class="visual-card-bottom"><span><i class="fas fa-circle-check" aria-hidden="true"></i> All systems creative</span><span>01 / 04</span></div></div>
+            <div class="floating-chip chip-design"><i class="fas fa-wand-magic-sparkles" aria-hidden="true"></i> Design-minded</div>
+            <div class="floating-chip chip-code"><i class="fas fa-code" aria-hidden="true"></i> Developer</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-heading reveal"><span class="section-kicker">A little introduction</span><h2>Good work starts<br />with <span class="highlight">curiosity.</span></h2></div>
+            <div class="about-content reveal">
+                <div class="about-text">
+                    <p>I'm a passionate developer with a keen eye for design. I create beautiful, functional websites and applications that help businesses grow and succeed online.</p>
+                    <p>With expertise in modern web technologies, I deliver thoughtful solutions tailored to real needs — balancing a clean user experience with reliable engineering.</p>
+                    <a href="#contact" class="inline-link">More about my approach <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="about-image">
+                    <div class="avatar-placeholder"><span>ZA</span><div class="avatar-caption"><span class="status-dot"></span> Curious by nature</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-heading reveal"><span class="section-kicker">What I bring</span><h2>Skills & <span class="highlight">expertise.</span></h2></div>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue.js</p>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Python, Database Design</p>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Responsive Design, Wireframing</p>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Design</h3>
+                    <p>Responsive Development, Mobile-First</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-heading reveal"><span class="section-kicker">Selected work</span><h2>Ideas made <span class="highlight">real.</span></h2><p>A few ways I bring design and development together.</p></div>
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-image project-image-one"><div class="mock-dashboard"><div class="mock-sidebar"></div><div class="mock-content"><span></span><span></span><div class="mock-chart"></div></div></div><span class="project-number">01</span></div>
+                    <h3>Product Dashboard</h3>
+                    <p>A considered interface concept for making complex information feel clear and actionable.</p>
+                    <div class="project-tags"><span>UI Design</span><span>Development</span></div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-image project-image-two"><div class="mock-store"><span class="store-label">STUDIO / OBJECTS</span><div class="store-product"></div><span class="store-line"></span><span class="store-line short"></span></div><span class="project-number">02</span></div>
+                    <h3>Curated Commerce</h3><p>A warm, editorial storefront experience designed to put products first.</p><div class="project-tags"><span>E-commerce</span><span>Art Direction</span></div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-image project-image-three"><div class="mock-chat"><span class="chat-bubble"></span><span class="chat-bubble right"></span><span class="chat-bubble"></span><span class="chat-input"></span></div><span class="project-number">03</span></div>
+                    <h3>Team Workspace</h3><p>A collaboration concept that helps distributed teams stay in sync.</p><div class="project-tags"><span>Product Design</span><span>Prototyping</span></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Smith" autocomplete="name" required>
+                    <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="jane@example.com" autocomplete="email" required>
+                    <label for="message">How can I help?</label><textarea id="message" name="message" placeholder="Tell me a little about your project..." rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                    <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>email@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 (234) 567-8900</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Your City, Country</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#contact" class="social-link" aria-label="GitHub profile"><i class="fab fa-github"></i></a>
+                        <a href="#contact" class="social-link" aria-label="LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+                        <a href="#contact" class="social-link" aria-label="Twitter profile"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="currentYear">2026</span> Zowrayz Asad. Made with care.</p>
+            <a href="#home" class="back-to-top">Back to top <i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+            <a href="https://github.com/zowrayzasad-cell/zowrayz.com.git" class="back-to-top" target="_blank" rel="noopener noreferrer">GitHub repository <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
